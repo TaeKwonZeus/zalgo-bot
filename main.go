@@ -52,5 +52,5 @@ func onMessage(session *discordgo.Session, event *discordgo.MessageCreate) {
 }
 
 func toZalgo(in string) string {
-	return ""
+	return in
 }
